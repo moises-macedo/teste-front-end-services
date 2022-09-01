@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209" height="209" viewBox="0 0 209 209">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.205" y1="1" x2="0.791" y2="0.385" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1d1d1"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#69cbff"/>
+      <stop offset="1" stop-color="#3c98fa"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_6097" data-name="Group 6097" transform="translate(-137 -330)">
+    <g id="Group_6089" data-name="Group 6089" transform="translate(-268 -2856)">
+      <g id="Rectangle_2107" data-name="Rectangle 2107" transform="translate(405 3186)" stroke="#000" stroke-width="2">
+        <rect width="209" height="209" rx="15" stroke="none"/>
+        <rect x="1" y="1" width="207" height="207" rx="14" fill="none"/>
+      </g>
+      <g id="Group_6090" data-name="Group 6090" transform="translate(24 -38)">
+        <path id="Rectangle_2108" data-name="Rectangle 2108" d="M15,0H182a0,0,0,0,1,0,0V67a0,0,0,0,1,0,0H15A15,15,0,0,1,0,52V15A15,15,0,0,1,15,0Z" transform="translate(408 3272)" fill="url(#linear-gradient)"/>
+        <text id="_000.000.000-0" data-name="000.000.000-0" transform="translate(503 3314)" font-size="21" font-family="SFProDisplay-Regular, SF Pro Display" opacity="0.22"><tspan x="-73.1" y="0">000.000.000-0</tspan></text>
+      </g>
+      <g id="noun_Next_1153693" transform="translate(523.836 3303.836)">
+        <g id="Group_6092" data-name="Group 6092" transform="translate(20 67.164) rotate(-90)">
+          <g id="Group_6091" data-name="Group 6091" transform="translate(0)">
+            <path id="Path_8666" data-name="Path 8666" d="M23.582,47.164A23.582,23.582,0,1,1,47.164,23.582,23.582,23.582,0,0,1,23.582,47.164Zm.537-35.143a.774.774,0,0,0-1.1,0l-9.411,9.5a.786.786,0,1,0,1.11,1.111l7.524-7.534c.307-.307.555-.2.555.223V34.281a.785.785,0,0,0,1.57,0V15.317c0-.43.251-.528.555-.223l7.524,7.534a.786.786,0,1,0,1.11-1.111Z" transform="translate(47.164 47.164) rotate(180)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+      <g id="Rectangle_2109" data-name="Rectangle 2109" transform="translate(405 3186)" fill="none" stroke="#404040" stroke-width="10">
+        <rect width="209" height="209" rx="15" stroke="none"/>
+        <rect x="5" y="5" width="199" height="199" rx="10" fill="none"/>
+      </g>
+    </g>
+    <g id="noun_Next_1153693-2" data-name="noun_Next_1153693" transform="translate(255.836 447.836)">
+      <g id="Group_6092-2" data-name="Group 6092" transform="translate(20 67.164) rotate(-90)">
+        <g id="Group_6091-2" data-name="Group 6091" transform="translate(0)">
+          <path id="Path_8666-2" data-name="Path 8666" d="M23.582,47.164A23.582,23.582,0,1,1,47.164,23.582,23.582,23.582,0,0,1,23.582,47.164Zm.537-35.143a.774.774,0,0,0-1.1,0l-9.411,9.5a.786.786,0,1,0,1.11,1.111l7.524-7.534c.307-.307.555-.2.555.223V34.281a.785.785,0,0,0,1.57,0V15.317c0-.43.251-.528.555-.223l7.524,7.534a.786.786,0,1,0,1.11-1.111Z" transform="translate(47.164 47.164) rotate(180)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209" height="209" viewBox="0 0 209 209">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3d9bc9"/>
+      <stop offset="1" stop-color="#1f4e65"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7b206"/>
+      <stop offset="1" stop-color="#7c5903"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4bbf29"/>
+      <stop offset="1" stop-color="#266015"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f26d61"/>
+      <stop offset="1" stop-color="#793731"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7065" data-name="Group 7065" transform="translate(-1401 -3162)">
+    <g id="Group_9650" data-name="Group 9650" transform="translate(0 16)">
+      <rect id="Rectangle_2110" data-name="Rectangle 2110" width="209" height="209" rx="15" transform="translate(1401 3146)" fill="#1a1718"/>
+      <g id="Group_6096" data-name="Group 6096" transform="translate(-175 102)">
+        <rect id="Rectangle_2116" data-name="Rectangle 2116" width="147" height="108" rx="14" transform="translate(1607 3095)" fill="#e1ddd4"/>
+        <g id="Group_6096-2" data-name="Group 6096" transform="translate(43 -3)">
+          <rect id="Rectangle_2112" data-name="Rectangle 2112" width="137" height="85" rx="10" transform="translate(1570 3104)" fill="url(#linear-gradient)"/>
+          <path id="Path_8667" data-name="Path 8667" d="M10,0H127a10,10,0,0,1,10,10V75a10,10,0,0,1-10,10H10A10,10,0,0,1,0,75V10A10,10,0,0,1,10,0Z" transform="translate(1570 3115)" fill="url(#linear-gradient-2)"/>
+          <path id="Path_8668" data-name="Path 8668" d="M10,0H127a10,10,0,0,1,10,10V65a10,10,0,0,1-10,10H10A10,10,0,0,1,0,65V10A10,10,0,0,1,10,0Z" transform="translate(1570 3125)" fill="url(#linear-gradient-3)"/>
+          <path id="Path_8669" data-name="Path 8669" d="M10,0H127a10,10,0,0,1,10,10V54a10,10,0,0,1-10,10H10A10,10,0,0,1,0,54V10A10,10,0,0,1,10,0Z" transform="translate(1570 3136)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <path id="Rectangle_2117" data-name="Rectangle 2117" d="M0,0H146a0,0,0,0,1,0,0V40a14,14,0,0,1-14,14H14A14,14,0,0,1,0,40V0A0,0,0,0,1,0,0Z" transform="translate(1608 3149)" fill="#e1ddd4"/>
+      </g>
+    </g>
+  </g>
+</svg>

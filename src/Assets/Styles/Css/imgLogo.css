@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "grupo-services_black";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_bold";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services-bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_demirounded";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_demirounded.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_extrabold";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_extrabold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_ligth";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_medium";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_regular";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_thin";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_thin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_bold";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_medium";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_regular";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_semiBold";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*COLORS*/
+/*fonts*/
+.container--imgLogo {
+  width: 100%;
+  max-width: 468px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 150px; }
+
+.box--img {
+  width: 95%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(254deg, #231D4E 0%, #070610 100%) no-repeat;
+  border-radius: 10px; }
+  .box--img img {
+    height: 25px;
+    width: 100%;
+    max-width: 180px; }
+
+/*# sourceMappingURL=imgLogo.css.map */

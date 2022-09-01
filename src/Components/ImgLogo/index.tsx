@@ -1,4 +1,3 @@
-import Background from "../../Assets/Img/background-main.png"
 import LogoService from "../../Assets/Img/logo-servicespay.svg"
 import '../../Assets/Styles/Css/imgLogo.css';
 export const ImgLogo = () => {

@@ -1,8 +1,8 @@
-import { ImgLogo } from "./Components/ImgLogo";
+import { Home } from "./Pages/Home";
 
 function App() {
   return (
-    <ImgLogo />
+    <Home />
   );
 }
 

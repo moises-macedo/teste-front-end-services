@@ -68,5 +68,13 @@
   font-style: normal; }
 /*COLORS*/
 /*fonts*/
+/*KEYFRAMES*/
+@keyframes shake {
+  25% {
+    transform: translateX(4px); }
+  50% {
+    transform: translateX(-5px); }
+  100% {
+    transform: translateX(4px); } }
 
 /*# sourceMappingURL=global.css.map */

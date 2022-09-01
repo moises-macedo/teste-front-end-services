@@ -1,8 +1,8 @@
+import { ImgLogo } from "./Components/ImgLogo";
+
 function App() {
   return (
-    <div className="App">
-      <p> Olá mundo</p>
-    </div>
+    <ImgLogo />
   );
 }
 

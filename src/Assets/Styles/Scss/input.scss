@@ -58,3 +58,17 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .container--input{
+        max-width: 1024px;
+        margin-top: 0;
+        
+    }
+    .box--img{
+        width: 95%;  
+        max-width: 1024px;            
+        min-height: 700px;
+
+    }
+}

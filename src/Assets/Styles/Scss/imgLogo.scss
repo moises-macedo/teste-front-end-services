@@ -31,3 +31,28 @@
     }
 
 }
+
+@media screen and (min-width: 768px) {
+    .container--imgLogo{
+        max-width: 768px;
+        min-height: 736px;
+    }
+    .box--img{
+        width: 95%;  
+        max-width: 768px;            
+        min-height: 700px;
+
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container--imgLogo{
+        max-width: 1024px;
+        min-height: 736px;
+    }
+    .box--img{
+        width: 95%;  
+        max-width: 1024px;            
+        min-height: 700px;
+
+    }
+}

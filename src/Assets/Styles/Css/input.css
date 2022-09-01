@@ -115,4 +115,14 @@
     .container--input .input-erro:focus {
       border: 2px solid #f80505; }
 
+@media screen and (min-width: 1024px) {
+  .container--input {
+    max-width: 1024px;
+    margin-top: 0; }
+
+  .box--img {
+    width: 95%;
+    max-width: 1024px;
+    min-height: 700px; } }
+
 /*# sourceMappingURL=input.css.map */

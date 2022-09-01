@@ -116,7 +116,8 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  display: none; }
+  display: none;
+  text-align: right; }
   .carousel--header-btn button {
     background: none;
     cursor: pointer; }
@@ -167,5 +168,25 @@
       max-height: 209px;
       display: flex;
       object-fit: cover; }
+
+@media screen and (min-width: 768px) {
+  .container--carousel {
+    max-width: 768px; }
+
+  .carousel--header {
+    max-width: 768px; }
+
+  .carousel--header-btn {
+    display: block; } }
+@media screen and (min-width: 1024px) {
+  .container--carousel {
+    min-width: 99vw;
+    margin-bottom: 50px; }
+
+  .carousel--header {
+    min-width: 80%; }
+
+  .carousel--cards {
+    width: 75vw; } }
 
 /*# sourceMappingURL=carousel.css.map */

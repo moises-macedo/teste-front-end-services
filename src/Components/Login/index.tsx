@@ -9,7 +9,6 @@ interface DataSubmit {
     cpf: string,
     birthDate: number,
     checkbox: boolean
-
 }
 
 export const Login = () => {

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "grupo-services_black";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_bold";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services-bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_demirounded";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_demirounded.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_extrabold";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_extrabold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_ligth";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_medium";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_regular";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_thin";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_thin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_bold";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_medium";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_regular";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_semiBold";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*COLORS*/
+/*fonts*/
+/*KEYFRAMES*/
+@keyframes shake {
+  25% {
+    transform: translateX(4px); }
+  50% {
+    transform: translateX(-5px); }
+  100% {
+    transform: translateX(4px); } }
+.container--video {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 468px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 477px;
+  background: #000000; }
+
+.video--title {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 76px;
+  margin-bottom: 80px; }
+  .video--title h2 {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: "grupo-services_black"; }
+  .video--title img {
+    width: 100%;
+    max-width: 225px;
+    height: 10px;
+    margin-top: 20px;
+    object-fit: cover;
+    text-align: left; }
+
+.video--display {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 223px;
+  background: #242424; }
+
+/*# sourceMappingURL=video.css.map */

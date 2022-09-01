@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "grupo-services_black";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_bold";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services-bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_demirounded";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_demirounded.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_extrabold";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_extrabold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_ligth";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_medium";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_regular";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "grupo-services_thin";
+  src: url("/src/Assets/Fonts/Grupo-Services/grupo_services_thin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_bold";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_medium";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_regular";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "sf-ProdDisplay_semiBold";
+  src: url("/src/Assets/Fonts/SF/SFProDisplay-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*COLORS*/
+/*fonts*/
+/*KEYFRAMES*/
+@keyframes shake {
+  25% {
+    transform: translateX(4px); }
+  50% {
+    transform: translateX(-5px); }
+  100% {
+    transform: translateX(4px); } }
+.container--carousel {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; }
+
+.carousel--header {
+  width: 80%;
+  max-width: 374px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.carousel--header-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; }
+  .carousel--header-title h2 {
+    width: 100%;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "grupo-services_black"; }
+  .carousel--header-title p {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: "sf-ProdDisplay_regular";
+    color: #000000DE; }
+
+.carousel--header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  display: none; }
+  .carousel--header-btn button {
+    background: none;
+    cursor: pointer; }
+    .carousel--header-btn button:nth-child(1) {
+      margin-right: 30px; }
+
+.carousel--cards {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-behavior: smooth; }
+  .carousel--cards::-webkit-scrollbar {
+    display: none; }
+
+.carousel--card-list {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 333px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  margin-right: 30px;
+  background: #EBEAE4;
+  flex: none; }
+  .carousel--card-list li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .carousel--card-list li h3 {
+      color: #000000;
+      font-family: "sf-ProdDisplay_medium";
+      font-size: 36px; }
+    .carousel--card-list li p {
+      width: 100%;
+      font-family: "sf-ProdDisplay_regular";
+      font-size: clamp(16px, 50vw, 20px);
+      color: #000000DE;
+      text-align: center; }
+    .carousel--card-list li img {
+      max-width: 209px;
+      max-height: 209px;
+      display: flex;
+      object-fit: cover; }
+
+/*# sourceMappingURL=carousel.css.map */

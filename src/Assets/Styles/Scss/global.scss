@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+// family Service
+@font-face {
+
+    font-family: "grupo-services_black";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services_black.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "grupo-services_bold";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services-bold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "grupo-services_demirounded";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services_demirounded.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "grupo-services_extrabold";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services_extrabold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "grupo-services_ligth";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services_light.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "grupo-services_medium";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services_medium.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "grupo-services_regular";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services_regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "grupo-services_thin";
+    src: url('/src/Assets/Fonts/Grupo-Services/grupo_services_thin.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// family SF
+
+@font-face {
+    font-family: "sf-ProdDisplay_bold";
+    src: url('/src/Assets/Fonts/SF/SFProDisplay-Bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sf-ProdDisplay_medium";
+    src: url('/src/Assets/Fonts/SF/SFProDisplay-Medium.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sf-ProdDisplay_regular";
+    src: url('/src/Assets/Fonts/SF/SFProDisplay-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sf-ProdDisplay_semiBold";
+    src: url('/src/Assets/Fonts/SF/SFProDisplay-Semibold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+// globais
+
+/*COLORS*/
+
+$color--white-1: #FFFFFF;
+$color--white-2: #FFFFFFCC;
+$color--white-3: #FFFFFFDE;
+$color--white-4: #F4F4F4;
+$color--blue-1: #231D4E;
+$color--blue-2: #3C98FA;
+$color--blue-3: #C1EFF7;
+$color--blue-4: #69CBFF;
+$color--blue-4: #2FCFE9;
+$color--blue-5: #307AFF;
+$color--blue-6: #3D9BC9;
+$color--blue-7: #1F4E65;
+$color--black-1: #070610;
+$color--black-2: #000000DE;
+$color--black-3: #000000;
+$color--black-4: #1A1718;
+$color--gray-1: #000000CC;
+$color--gray-2: #707070;
+$color--gray-3: #242424;
+$color--gray-4: #787878;
+$color--gray-5: #363636;
+$color--gray-6: #E3E3E3;
+$color--gray-7: #E1DDD4;
+$color--gray-8: #E8EBEF;
+$color--gray-9: #BFC4CC;
+$color--gray-10: #CECECE;
+$color--gray-11: #EBEAE4;
+$color--gray-12: #D1D1D1;
+$color--gray-13: #404040;
+$color--gray-14: #E2E4E8;
+$color--gray-15: #7A8389;
+$color--yllow-1: #F7B206;
+$color--golden-1: #7C5903;
+$color--green-1: #4BBF29;
+$color--green-2: #266015;
+$color--pink-1: #F26D61;
+$color--red-1: #793731;
+
+/*fonts*/
+
+$font--grupo-services_black:"grupo-services_black";
+$font--grupo-services_bold:"grupo-services_bold";
+$font--grupo-services_demirounded:"grupo-services_demirounded";
+$font--grupo-services_extrabold:"grupo-services_extrabold";
+$font--grupo-services_medium:"grupo-services_medium";
+$font--grupo-services_regular:"grupo-services_regular";
+$font--grupo-services_thin:"grupo-services_thin";
+$font--sf-ProdDisplay_bold:"sf-ProdDisplay_bold";
+$font--sf-ProdDisplay_medium:"sf-ProdDisplay_medium";
+$font--sf-ProdDisplay_regular:"sf-ProdDisplay_regular";
+$font--sf-ProdDisplay_semiBold:"sf-ProdDisplay_semiBold";
+

@@ -23,10 +23,9 @@ export const Footer = () => {
                 </ul>
                 <div className="footer--description-imgApp">
                     <img src={FooterGruposService} alt="Plataforma desenvolvida pelo Grupo Services" />
-                </div>
-                <div className="footer--description-reserved">
                     <h4>Todos os direitos reservados ao Grupo Services</h4>
                 </div>
+                
             </section>
 
         </footer>

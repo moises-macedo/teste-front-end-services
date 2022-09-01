@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,oCAAqC;EACjC,gBAAgB;IACZ,OAAO,EAAE,IAAI;IACb,qBAAqB,EAAE,OAAO;IAC9B,KAAK,EAAE,IAAI",
+"sources": ["../Scss/page.scss"],
+"names": [],
+"file": "page.css"
+}

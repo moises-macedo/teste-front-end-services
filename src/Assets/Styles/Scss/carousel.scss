@@ -43,11 +43,12 @@
     justify-content: flex-end;
     width: 100%;
     display: none;
-
+    text-align: right;
     
     button{
         background: none;
         cursor: pointer;
+        
 
         &:nth-child(1){
             margin-right: 30px;
@@ -107,4 +108,33 @@
             object-fit: cover;
         }
     }
+}
+
+@media screen and (min-width: 768px) {
+    .container--carousel{
+        max-width: 768px;
+        
+    }
+    .carousel--header{
+        max-width: 768px;
+    }
+    .carousel--header-btn{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container--carousel{
+        min-width: 99vw;  
+        margin-bottom: 50px;
+          
+        
+    }
+    .carousel--header{
+        min-width: 80%
+    }
+    .carousel--cards{
+        width: 75vw;
+    }
+   
 }

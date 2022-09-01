@@ -1,6 +1,6 @@
 @import"./global.scss";
 
-.container--footer-bakcground{
+.container--footer-bakcground {
     width: 100%;
     max-width: 480px;
     background: $color--black-3;
@@ -11,7 +11,8 @@
     height: 382px;
     margin-top: 30px;
 }
-.container--footer-desciption{
+
+.container--footer-desciption {
     width: 80%;
     max-width: 354px;
     height: 286px;
@@ -21,19 +22,21 @@
     justify-content: space-between;
 }
 
-.footer--description-imgGrupo{
+.footer--description-imgGrupo {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     height: 80px;
     border-bottom: 1px solid $color--gray-5;
-    img{
+
+    img {
         width: 100%;
         max-width: 86px;
     }
 }
-.footer--description-links{
+
+.footer--description-links {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -41,29 +44,69 @@
     justify-content: space-between;
     height: 80px;
     border-bottom: 1px solid $color--gray-5;
-    a{
+
+    a {
         font-size: 14px;
         font-family: $font--sf-ProdDisplay_regular;
         color: $color--white-1;
     }
 
 }
-.footer--description-imgApp{
+
+.footer--description-imgApp {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
     height: 80px;
-    img{
+
+    img {
         width: 100%;
         max-width: 99px;
     }
 
+    h4 {
+
+        width: 100%;
+        font-size: 16px;
+        font-family: $font--sf-ProdDisplay_regular;
+        color: $color--gray-4;
+        margin-top: 20px;
+    }
+
 }
 
-.footer--description-reserved{
-    width: 100%;
-    font-size: 16px;
-    font-family: $font--sf-ProdDisplay_regular;
-    color: $color--gray-4;
+@media screen and (min-width: 768px) {
+    .container--footer-bakcground {
+        max-width: 768px;
+    }
+
+    .container--footer-desciption {
+        max-width: 600px;
+    }
+
+    .footer--description-imgApp {
+        flex-wrap: nowrap;
+        h4{
+            text-align: right;
+            margin-top: 0;
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container--footer-bakcground {
+        min-width: 99vw;
+    }
+
+    .container--footer-desciption {
+        min-width: 95vw;
+    }
+
+    .footer--description-links {
+        justify-content: flex-start;
+        a{
+            margin-right: 20px;
+        }
+    }
 }

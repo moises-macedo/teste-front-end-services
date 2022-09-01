@@ -1,0 +1,11 @@
+.container--page{
+
+}
+
+@media screen and (min-width: 768px) {
+    .container--page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+}
